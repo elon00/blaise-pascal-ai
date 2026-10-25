@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "blaise-pascal-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "PASCAL",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "calculate_hydraulic_lever_amplification",
+          "description": "Applies Pascal's principle F1/A1 = F2/A2 in enclosed hydraulic systems",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "area1_cm2": {
+                "type": "number"
+              },
+              "area2_cm2": {
+                "type": "number"
+              },
+              "input_force_n": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "area1_cm2",
+              "area2_cm2",
+              "input_force_n"
+            ]
+          }
+        },
+        {
+          "name": "compute_pascal_triangle_binomials",
+          "description": "Generates arbitrary nth row binomial expansion coefficients for probability trees",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "row_n": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "row_n"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
