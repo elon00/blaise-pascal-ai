@@ -1,0 +1,14 @@
+{
+  "project": "blaise-pascal-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "FcP7wVtKL5NseAELSQAqtQHHHLsvg8PdhFyXvngmpgjz",
+  "vault_account": "G2DJd1vYUpPhrASXyuG8378nvy51YakcQ3pY2WHSxyHA",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "6wDD5TzxkVmzR1UNHVa3wWzg15oEiHDGEo4kBVEfksem3YWBZFYvkse7FGGDrMCdgzncTiX93GhTYEw7JaY77R3",
+  "account_tx": "2prExfqFgfffSYXBwCLB7f9GuVE2usjXfQNLxTyXCAWdpATtK4h16RH4NvoYBnyDKE5XfLuKizct7URJtWFUUr4A",
+  "mint_tx": "2bs4AJZBXeYMM9ksmHnHFV2WW2GZTmHNejntfwpiphXNQMPgJ1rL83cbHED1P4FSXbEDPdk1gvnigSxRiq5gPRfq",
+  "solana_explorer_mint": "https://explorer.solana.com/address/FcP7wVtKL5NseAELSQAqtQHHHLsvg8PdhFyXvngmpgjz?cluster=devnet",
+  "timestamp": "2026-10-26 16:22:48 UTC"
+}
